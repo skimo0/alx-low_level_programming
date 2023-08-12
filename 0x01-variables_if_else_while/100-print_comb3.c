@@ -19,13 +19,13 @@ int main(void)
 		{
 			if (digit != digit2 && digit1 < digit2)
 			{
-				putchar(digit1 + 48)
-				puchtar(digit2 + 48)
+				putchar(digit1 + 48);
+				puchtar(digit2 + 48);
 
 				if (digit1 + digit2 != 17)
 				{
-					putchar(',')
-					putchar(' ')
+					putchar(',');
+					putchar(' ');
 				}
 			}
 			digit2++;
