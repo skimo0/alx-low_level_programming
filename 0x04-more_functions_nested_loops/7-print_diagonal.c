@@ -2,6 +2,7 @@
 
 /**
  * print_diagonal - Print diagonal line using backslashes.
+ *
  * @n: Number of backslashes in the diagonal line
 */
 
