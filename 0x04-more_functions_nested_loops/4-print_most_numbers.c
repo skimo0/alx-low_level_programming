@@ -1,9 +1,8 @@
-#include "main.c"
+#include "main.h"
 
 /**
- * print_most_numbers - Prints 0 - 9 apart
- * from 2 and 4 and you can
- * only use _putchar twice
+ * print_most_numbers - Outputs digits 0 to 9, excluding 2 and 4,
+ * using the _putchar function only twice.
  * Return: Always 0 (success)
  */
 
