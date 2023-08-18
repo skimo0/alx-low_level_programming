@@ -1,7 +1,7 @@
 #include "main.c"
 
 /**
- * print_most_numbers - Prints digits from 0 to 9, excluding 2 and 4, using
+ * print_most_numbers - Prints digits from 0 - 9, excluding 2 and 4, using
  *                     _putchar. Demonstrates printing specific digits while
  *                     skipping 2 and 4, and using _putchar only twice.
  *
