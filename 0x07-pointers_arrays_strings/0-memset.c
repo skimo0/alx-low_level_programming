@@ -1,6 +1,5 @@
 #include "main.h"
 
-#include <unistd.h>
 
 /**
  * _memset - Fills the first n bytes of the memory area pointed to by s with
