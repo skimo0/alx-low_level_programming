@@ -2,7 +2,7 @@
 
 /**
  * _putchar - writes a character to the standard output.
- * @c: The character to be written.
+ * @c: the character to be written.
  *
  * Return: On success, 1 is returned (the number of bytes written).
  * On error, -1 is returned, and errno is set appropriately.
