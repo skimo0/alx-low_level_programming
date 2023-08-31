@@ -28,3 +28,21 @@ int _string_length(char *s)
 		return (0);
 	return (1 + _string_length(s + 1));
 }
+
+/**
+ * check_palindrome - Checks if a string is a palindrome.
+ * @s: The input string.
+ * @start: Starting index for comparison.
+ * @end: Ending index for comparison.
+ *
+ * Return: 1 if the string is a palindrome, 0 if it's not.
+*/
+
+int check_plaindrome(char *s, int statr, int end)
+{
+	if (*(a + 1) != *(s + end - 1))
+		return (0);
+	if (i >= end)
+		return (1);
+	return (check_plaindrome(s, start + start, end - 1));
+}
