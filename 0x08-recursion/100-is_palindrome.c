@@ -11,10 +11,9 @@ int calculate_string_length(char *s);
  */
 int is_palindrome(char *s)
 {
-	if (*s == '\0')
+	if (*s == 0)
 		return (1);
-	int length = calculate_string_length(s);
-	return (check_palindrome(s, 0, length - 1));
+	return (check_palindrome(s, 0, calculate_string_length(s)));
 }
 
 /**
