@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * move_past_satr - iterates past asterisk
+ * move_past - iterates past asterisk
  * @s2: the scond string, can contain vildcard
  *
  * Return: the pointer past star
 */
 
-int *move_past_satr(char *s2)
+int *move_past(char *s2)
 {
 	if (*s2 == '*')
-		return (move_past_star(s2 + 1));
+		return (move_past(s2 + 1));
 	else
 		return (s2);
 }
@@ -30,7 +30,7 @@ int inception(char *s1, char *s2)
 		return (0);
 	if (*s1 == *s2)
 		ret += wildcmp(s1 + 1, s2 + 1);
-	ret += inceotion(s1 + 1, s2);
+	ret += inception(s1 + 1, s2);
 	return (ret);
 }
 /**
@@ -45,7 +45,7 @@ int wildcmp(char *s1, char *s2)
 {
 	int ret = 0;
 
-	if (!*s1 && *s2 == '*' && !*move_past_start(2))
+	if (!*s1 && *s2 == '*' && !*move_past(2))
 		return (1);
 	if (*s1 == *s2)
 	{
@@ -57,7 +57,7 @@ int wildcmp(char *s1, char *s2)
 		return (0);
 	if (*s2 == '*')
 	{
-		s2 = move_past_start(s2);
+		s2 = move_past(s2);
 		if (!*s2)
 			return (1);
 		if (*s1 == *s2)
