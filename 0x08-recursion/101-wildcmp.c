@@ -45,7 +45,7 @@ int wildcmp(char *s1, char *s2)
 {
 	int ret = 0;
 
-	if (!*s1 && *s2 == '*' && !*move_past(2))
+	if (!*s1 && *s2 == '*' && !*move_past(s2))
 		return (1);
 	if (*s1 == *s2)
 	{
