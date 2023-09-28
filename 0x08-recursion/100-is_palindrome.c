@@ -39,11 +39,11 @@ int _string_length(char *s)
  * Return: 1 if the string is a palindrome, 0 if it's not.
 */
 
-int check_plaindrome(char *s, int statr, int end)
+int check_plaindrome(char *s, int start, int end)
 {
-	if (*(a + 1) != *(s + end - 1))
+	if (*(s + start) != *(s + end - 1))
 		return (0);
-	if (i >= end)
+	if (start >= end)
 		return (1);
-	return (check_plaindrome(s, start + start, end - 1));
+	return (check_plaindrome(s, start + 1, end - 1));
 }
