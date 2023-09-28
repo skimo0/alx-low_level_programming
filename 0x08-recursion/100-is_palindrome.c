@@ -36,7 +36,7 @@ int _string_length(char *s)
  * @start: Starting index for comparison.
  * @end: Ending index for comparison.
  *
- * Return: 1 if the string is a palindrome, 0 if it's not.
+ * Return: 1 if the string is a palindrome, 0 if it is not.
 */
 
 int check_plaindrome(char *s, int start, int end)
