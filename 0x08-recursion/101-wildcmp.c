@@ -7,7 +7,7 @@
  * Return: the pointer past star
 */
 
-int *move_past(char *s2)
+char *move_past(char *s2)
 {
 	if (*s2 == '*')
 		return (move_past(s2 + 1));
