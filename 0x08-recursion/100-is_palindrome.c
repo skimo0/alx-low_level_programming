@@ -7,7 +7,7 @@ int _strlen_recursion(char *s);
  * is_palindrome - Checks if a string is a palindrome.
  * @s: The input string.
  *
- * Return: 1 if @s is a palindrome, 0 if it's not.
+ * Return: 1 if @s is a palindrome, 0 if it is not.
  */
 
 int is_palindrome(char *s)
