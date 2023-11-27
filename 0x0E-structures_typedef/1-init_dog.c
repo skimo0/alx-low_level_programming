@@ -1,7 +1,7 @@
 #include "dog.h"
 
 /**
- * init_fog - initializes a dog
+ * init_dog - initializes a dog
  * @d: the dog to init
  * @name: the dog's name
  * @age: dog is age
