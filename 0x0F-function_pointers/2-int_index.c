@@ -4,7 +4,7 @@
  * int_index - searches for integer
  * @array: the int array
  * @size: the size
- * cmp: the compare function
+ * @cmp: the compare function
  *
  * Return: the integr index
  */
